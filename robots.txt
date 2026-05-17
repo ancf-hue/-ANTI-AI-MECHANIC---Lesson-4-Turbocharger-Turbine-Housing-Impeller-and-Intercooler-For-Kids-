@@ -1,0 +1,45 @@
+# ROBOTS.TXT for ANTI AI MECHANIC - Lesson 4: Turbocharger
+# Instructions for search robots
+
+User-agent: *
+Allow: /
+
+# Disable indexing of service files and folders
+Disallow: /temp/
+Disallow: /test/
+Disallow: /backup/
+Disallow: /assets/
+Disallow: /css/
+Disallow: /js/
+
+# Disable indexing of temporary and system files
+Disallow: /*.tmp$
+Disallow: /*.log$
+Disallow: /*.bak$
+Disallow: /*.swp$
+Disallow: /*.DS_Store$
+
+# Disable indexing of empty pages
+Disallow: /404.html
+Disallow: /500.html
+
+# Disable URL parameters (to avoid duplicates)
+Disallow: /*?*
+Disallow: /*&*
+
+# Sitemap location
+Sitemap: https://anti-ai-mechanic-lesson-4-turbochar.vercel.app/sitemap.xml
+
+# Main settings for search engines
+Host: https://anti-ai-mechanic-lesson-4-turbochar.vercel.app
+
+# Delay between robot requests (in seconds)
+Crawl-delay: 1
+
+# Preferred domain (uncomment the one you need)
+
+# For version with www:
+# Host: www.anti-ai-mechanic-lesson-4-turbochar.vercel.app
+
+# For version without www:
+Host: anti-ai-mechanic-lesson-4-turbochar.vercel.app
